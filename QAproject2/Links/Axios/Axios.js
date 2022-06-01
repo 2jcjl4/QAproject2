@@ -6,13 +6,15 @@ let createUserBtn = document.querySelector("#createUserBtn");
 
 let createUser = () =>{
     let User = {
-        "name": name.value,
-        "phoneNumber": phoneNumber.value
+        "name": "james",
+        "phoneNumber": "123"
     }
+    console.log(User);
+
     axios.post("http://localhost:8080/user/create", User)
     .then((response) => {
         console.log(response);
-        getAll();
+       // getAll();
     })
     .catch((err) => {
         console.error(err);
