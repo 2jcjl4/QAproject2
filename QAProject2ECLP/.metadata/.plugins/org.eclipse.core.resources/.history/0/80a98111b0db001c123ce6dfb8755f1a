@@ -1,0 +1,22 @@
+package com.qa.SpringbootExample.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+	// Read --> get
+	public String hello() {
+		return "Hello";
+	}
+	
+	// Create --> post
+	
+	// Update --> put/patch
+	
+	// Delete --> Delete
+	
+	
+	
+	
+}
