@@ -1,0 +1,50 @@
+package com.qa.SpringbootExample.controllers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.qa.SpringbootExample.domain.User;
+
+@RestController
+public class UserController {
+
+	// Temp storage, until the real database is implemeted 
+	private List<User> users = new ArrayList<>();
+	private int count = 0;
+	
+	// Read --> get
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello";
+	}
+	
+	@GetMapping("/getAll")
+	public List<User> getAll(){
+		return users;
+	}
+	
+	@GetMapping("/getById")
+	public User getById(){
+		return null;
+	}
+	
+	// Create --> post @PostMapping
+	@PostMapping("/create")
+	public User create(@RequestBody User user) {
+		user.setId(users.size()+1);
+		users.add(user);
+		return users.get(users.size()-1);
+	}
+	// Update --> put/patch @PutMapping
+	
+	// Delete --> Delete @DeleteMapping
+	
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package com.qa.SpringbootExample.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+	// Read --> get
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello";
+	}
+	
+	// Create --> post
+	
+	// Update --> put/patch
+	
+	// Delete --> Delete
+	
+	
+	
+	
+}

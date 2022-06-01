@@ -1,0 +1,8 @@
+package com.qa.SpringbootExample.Exception;
+
+
+
+
+public class UserNotFoundExcception extends EntityNotFoundException {
+
+}
