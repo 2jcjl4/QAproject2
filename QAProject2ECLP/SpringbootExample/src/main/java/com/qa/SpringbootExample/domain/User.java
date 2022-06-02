@@ -23,7 +23,9 @@ public class User {
 	
 
 	// CONSTRUCTOR
-	
+	public User() {
+		
+	}
 
 	public User( String name, String phoneNumber) {
 		super();
