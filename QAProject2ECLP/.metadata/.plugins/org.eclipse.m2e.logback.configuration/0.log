@@ -1675,3 +1675,4 @@ Caused by: java.io.EOFException: no more data available - expected end tag </pro
 2022-06-01 22:18:42,822 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-01 22:18:42,822 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-01 22:18:42,823 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2jcjl\Desktop\QAProject2\QAProject2ECLP\SpringbootExample\src\test\resources
+2022-06-02 13:36:04,834 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -1,38 +1,69 @@
 // ALWAYS USE 
 'use strict';
 
-let createUserBtn = document.querySelector("#createUserBtn");
+let createObjBtn = document.querySelector("#createObjBtn");
+let getAllBtn = document.querySelector("#getAllBtn");
+let deleteObjBtn = document.querySelector("#deleteObjBtn")
 
 
-let createUser = () =>{
-    let User = {
-        "name": "james",
-        "phoneNumber": "123"
+let readAll = document.querySelector("#readAll");
+
+let create = () =>{
+    let obj = {
+        "name": firstName.value,
+        "phoneNumber": phoneNumber.value
     }
-    console.log(User);
+    console.log(obj);
 
-    axios.post("http://localhost:8080/user/create", User)
+    axios.post("http://localhost:8080/user/create", obj)
     .then((response) => {
         console.log(response);
-       // getAll();
+        getAll();
     })
     .catch((err) => {
         console.error(err);
     });
 };
 
-// let getAll = () => {
-//     ReadAllDiv.innerHTML = "";
-//     axios.get("http://localhost:8080/user/getAll")
-//         .then((response) => {
-//             console.log(response);
-//             displayCharacter(response.data)
-//         })
-//         .catch((err) => {
-//             console.error(err);
-//         });
-// }
+let getAll = () => {
+    readAll.innerHTML = "";
+    axios.get("http://localhost:8080/user/getAll")
+        .then((response) => {
+            // console.log(response);
+            displayObjs(response.data)
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+}
+
+let displayObjs = (data) => {
+    for (let entry of data){
+    let objList = document.createElement("div");
+    objList.innerHTML=`${entry.id} ${entry.name} ${entry.phoneNumber}`
+    readAll.appendChild(objList);
+    };
+}
+
+// Delete
+
+let removeById = (id) => {
+    axios.delete(`http://localhost:8080/user/delete/${id}`)
+        .then((response) => {
+            console.log(response);
+            getAll();
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+}
+
+let deleteBtnFunc = () => {
+    removeById(deleteId.value);
+}
 
 
-//readAllBtn.addEventListener("click", getAll);
-createUserBtn.addEventListener("click",createUser);
+
+deleteObjBtn.addEventListener("click", deleteBtnFunc)
+getAllBtn.addEventListener("click", getAll);
+createObjBtn.addEventListener("click",create);
