@@ -32,7 +32,6 @@ public class CreatureController {
 	public CreatureController(CreatureService service) {
 		this.service = service;
 	}
-	
 	// Get all
 	@GetMapping("/getAll")
 	public ResponseEntity<List<Creature>> getAll(){
