@@ -1,3 +1,4 @@
+
 // ALWAYS USE 
 'use strict';
 
@@ -7,23 +8,6 @@ let deleteObjBtn = document.querySelector("#deleteObjBtn")
 let updateObjBtn = document.querySelector("#updateObjBtn")
 
 let readAll = document.querySelector("#readAll");
-
-// let create = () =>{
-//     let obj = {
-//         "name": firstName.value,
-//         "phoneNumber": phoneNumber.value
-//     }
-//     console.log(obj);
-
-//     axios.post("http://localhost:8080/user/create", obj)
-//     .then((response) => {
-//         console.log(response);
-//         getAll();
-//     })
-//     .catch((err) => {
-//         console.error(err);
-//     });
-// };
 
 let create = () =>{
     console.log("running Create")
@@ -50,7 +34,6 @@ let getAll = () => {
     readAll.innerHTML = "";
     axios.get("http://localhost:8080/creature/getAll")
         .then((response) => {
-            // console.log(response);
             displayObjs(response.data)
         })
         .catch((err) => {
@@ -89,32 +72,6 @@ let removeById = (id) => {
 let deleteBtnFunc = () => {
     removeById(deleteId.value);
 }
-
-// Update
-
-// let updateById = (id) => {
-
-//     // Deleting Old
-//    removeById(id);
-//         // Creating New
-//     let obj = {
-//             "name": objNameUpdate.value,
-//             "phoneNumber": objPhoneNumberUpdate.value
-//     }
-//     console.log(obj);
-    
-//     axios.post("http://localhost:8080/user/create", obj)
-//         .then((response) => {
-//             console.log(response);
-//             getAll();
-//         })
-//         .catch((err) => {
-//             console.error(err);
-//     });
-// }
-
-
-
 
 let updatefunc = () => {
     console.log("Update Running")
