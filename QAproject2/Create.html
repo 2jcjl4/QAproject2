@@ -16,51 +16,60 @@
     </head>
     <body>
 
-        <!-- Creating form -->
-        <div class="CreatingForm">
-            <form>
-                <div class="mb-3">
-                <label class="form-label">Name Of Creature</label>
-                <input type="text" id="creatureName">
+        <div class="rain">
+            <center><button class="button button4" id="homeBtm"><a href="./index.html">Home</a></button>
+                <button class="button button4" id="deleteBtn"><a href="./index.html">Delete</a></button>
+                <button class="button button4" id="createBtn"><a href="./update.html">Update</a></button>
+            </center>
+    
+            <form class="center">
+                <div style="text-align:center;">
+                    <label style="color:rgb(255, 255, 255)" class="form-label"><br>Name Of Creature:</label>
+                    <br>
+                    <input type="text" id="creatureName">
                 </div>
-        
-                <div class="mb-3">
-                <label class="form-label">Health</label>
-                <input type="integer" id="creatureHealth">
+    
+                <div style="text-align:center;">
+                    <label style="color:rgb(255, 255, 255)" class="form-label"><br>Health:</label>
+                    <br>
+                    <input type="integer" id="creatureHealth">
                 </div>
-        
-                <div class="mb-3">
-                    <label class="form-label">Damage</label>
+    
+                <div style="text-align:center;">
+                    <label style="color:rgb(255, 255, 255)" class="form-label"><br>Damage:</label>
+                    <br>
                     <input type="integer" id="creatureDamage">
                 </div>
-        
-                <div class="mb-3">
-                    <label class="form-label">Speed</label>
+    
+                <div style="text-align:center;">
+                    <label style="color:rgb(255, 255, 255)" class="form-label"><br>Speed:</label>
+                    <br>
                     <input type="integer" id="creatureSpeed">
                 </div>
-                <div>
-                    <label class="form-label">ExtraNotes</label>
-                    <div>
+                <br>
+                <div class="text-align:center;">
+                    <center><label style="color:rgb(255, 255, 255)" class="form-label">Extra Notes:</label>
+                        <br>
                         <textarea type="text" class="CEN" id="creatureNotes">
-
-                        </textarea>
-                    </div>
+            </textarea>
+                    </center>
                 </div>
-                
-        
-                <button id="createObjBtn">Submit</button>
+    
+                <center><button class="button button4" id="createObjBtn">Create</button></center>
             </form>
+            <!-- every HTML page needs this to run smoothly -->
+    
+            <!-- Needed as only using one JS file, project is not big enough to have multiple and these Divs do nothing except allow everything to run properly -->
+            <div id="createObjBtn"></div>
+            <div id="deleteObjBtn"></div>
+            <div id="getAllBtn"></div>
+    
         </div>
-
-        <!-- every HTML page needs this to run smoothly -->
-
-        <!-- Needed as only using one JS file, project is not big enough to have multiple and these Divs do nothing except allow everything to run properly -->
-        <div id="deleteObjBtn"></div>
-        <div id="getAllBtn"></div>
-        <div id="updateObjBtn"></div>
-
+    
         <!-- scripts used -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="./Links/Axios/Axios.js"></script>
     </body>
