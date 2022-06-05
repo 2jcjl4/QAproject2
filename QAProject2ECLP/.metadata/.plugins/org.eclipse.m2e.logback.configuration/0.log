@@ -1839,3 +1839,4 @@ Caused by: java.io.EOFException: no more data available - expected end tag </pro
 2022-06-05 11:55:21,923 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-06-05 11:55:21,927 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-05 11:55:21,928 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-05 11:55:21,928 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\2jcjl\Desktop\QAProject2\QAProject2ECLP\SpringbootExample\src\test\resources
