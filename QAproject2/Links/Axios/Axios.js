@@ -8,14 +8,35 @@ let updateObjBtn = document.querySelector("#updateObjBtn")
 
 let readAll = document.querySelector("#readAll");
 
+// let create = () =>{
+//     let obj = {
+//         "name": firstName.value,
+//         "phoneNumber": phoneNumber.value
+//     }
+//     console.log(obj);
+
+//     axios.post("http://localhost:8080/user/create", obj)
+//     .then((response) => {
+//         console.log(response);
+//         getAll();
+//     })
+//     .catch((err) => {
+//         console.error(err);
+//     });
+// };
+
 let create = () =>{
+    console.log("running Create")
     let obj = {
-        "name": firstName.value,
-        "phoneNumber": phoneNumber.value
+        "name": creatureName.value, 
+        "health": creatureHealth.value, 
+        "damage": creatureDamage.value, 
+        "speed": creatureSpeed.value, 
+        "notes": creatureNotes.value 
     }
     console.log(obj);
 
-    axios.post("http://localhost:8080/user/create", obj)
+    axios.post("http://localhost:8080/creature/create", obj)
     .then((response) => {
         console.log(response);
         getAll();
@@ -27,7 +48,7 @@ let create = () =>{
 
 let getAll = () => {
     readAll.innerHTML = "";
-    axios.get("http://localhost:8080/user/getAll")
+    axios.get("http://localhost:8080/creature/getAll")
         .then((response) => {
             // console.log(response);
             displayObjs(response.data)
@@ -40,7 +61,14 @@ let getAll = () => {
 let displayObjs = (data) => {
     for (let entry of data){
     let objList = document.createElement("div");
-    objList.innerHTML=`${entry.id} ${entry.name} ${entry.phoneNumber}`
+    objList.innerHTML=`
+    ${entry.id}
+    ${entry.name}
+    ${entry.health}
+    ${entry.damage}
+    ${entry.speed}
+    ${entry.notes}
+    `
     readAll.appendChild(objList);
     };
 }
@@ -48,7 +76,7 @@ let displayObjs = (data) => {
 // Delete
 
 let removeById = (id) => {
-    axios.delete(`http://localhost:8080/user/delete/${id}`)
+    axios.delete(`http://localhost:8080/creature/delete/${id}`)
         .then((response) => {
             console.log(response);
             getAll();
@@ -89,11 +117,15 @@ let deleteBtnFunc = () => {
 
 
 let updatefunc = () => {
+    console.log("Update Running")
     let obj ={
         "name": objNameUpdate.value,
-        "phoneNumber": objPhoneNumberUpdate.value
+        "health": objHealthUpdate.value,
+        "damage": objDamageUpdate.value,
+        "speed": objSpeedUpdate.value,
+        "notes": objNotesUpdate.value
     }
-    axios.put(`http://localhost:8080/user/update/${objIdUpdate.value}`, obj)
+    axios.put(`http://localhost:8080/creature/update/${objIdUpdate.value}`, obj)
     .then((response) => {
         console.log(response);
         getAll();
