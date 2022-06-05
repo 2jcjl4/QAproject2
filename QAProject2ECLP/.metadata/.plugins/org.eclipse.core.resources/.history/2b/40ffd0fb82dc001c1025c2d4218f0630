@@ -1,7 +1,0 @@
-package com.qa.SpringbootExample.Exception;
-
-import javax.persistence.EntityNotFoundException;
-
-public class UserNotFoundExceptionWithID extends EntityNotFoundException {
-
-}
