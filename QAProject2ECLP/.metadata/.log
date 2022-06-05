@@ -8666,6 +8666,7 @@ java.lang.NullPointerException: Cannot assign field "x" because "offer.bounds" i
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 21:38:16.042
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xfUVrZoF
@@ -9112,6 +9113,9 @@ java.lang.Error: SWT Resource was not properly disposed
 =======
 !SESSION 2022-06-05 11:54:38.807 -----------------------------------------------
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
+!SESSION 2022-06-05 11:54:38.807 -----------------------------------------------
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 eclipse.buildId=4.23.0.I20220308-0310
 java.version=16.0.2
 java.vendor=Oracle Corporation
@@ -9121,10 +9125,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2022-06-05 21:43:39.655
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2022-06-05 21:43:39.655
 =======
+=======
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 !ENTRY org.eclipse.core.resources 2 10035 2022-06-05 11:55:10.789
@@ -9134,6 +9141,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2022-06-05 11:55:13.554
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9144,7 +9154,11 @@ Binding(CTRL+SHIFT+T,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f05d08c,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ef59aee,
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ef59aee,
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9160,6 +9174,7 @@ Binding(CTRL+SHIFT+T,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c6d442d,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
@@ -9168,12 +9183,17 @@ Binding(CTRL+SHIFT+T,
 =======
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@779cb140,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 !SUBENTRY 1 org.eclipse.jface 2 0 2022-06-05 11:55:13.554
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9184,7 +9204,11 @@ Binding(ALT+SHIFT+R,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71842e18,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45a4587d,
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45a4587d,
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9200,7 +9224,11 @@ Binding(ALT+SHIFT+R,
 		Category(org.eclipse.ui.category.file,File,null,true),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@227c0cf7,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a91d72,
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a91d72,
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9211,6 +9239,7 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 21:43:45.666
@@ -9229,6 +9258,8 @@ Binding(ALT+SHIFT+R,
 =======
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 11:55:17.950
 !MESSAGE Entering DelegatingStreamConnectionProvider()
 
@@ -9243,6 +9274,9 @@ Binding(ALT+SHIFT+R,
 
 !ENTRY org.eclipse.egit.ui 2 0 2022-06-05 11:55:19.261
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
@@ -9252,6 +9286,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 21:43:50.981
@@ -9290,6 +9325,8 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.ui 2 2 2022-06-05 21:49:34.519
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
 =======
+=======
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-05 11:55:22.376
@@ -9337,6 +9374,9 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
+=======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
 =======
 >>>>>>> c2431f17c673cef3f5328d69f19e7151fb079c76
