@@ -67,7 +67,7 @@ let displayObjs = (data) => {
     ${entry.health}
     ${entry.damage}
     ${entry.speed}
-    ${entry.notes}
+    ${entry.Notes}
     `
     readAll.appendChild(objList);
     };

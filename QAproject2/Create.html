@@ -17,37 +17,40 @@
     <body>
 
         <!-- Creating form -->
-        <form>
-            <div class="mb-3">
-              <label class="form-label">Name Of Creature</label>
-              <input type="text" id="creatureName">
-            </div>
-    
-            <div class="mb-3">
-              <label class="form-label">Health</label>
-              <input type="integer" id="creatureHealth">
-            </div>
-    
-            <div class="mb-3">
-                <label class="form-label">Damage</label>
-                <input type="integer" id="creatureDamage">
-            </div>
-    
-            <div class="mb-3">
-                <label class="form-label">Speed</label>
-                <input type="integer" id="creatureSpeed">
-            </div>
-    
-            <div class="mb-3">
-                <label class="form-label">ExtraNotes</label>
-                <input type="text" class="form-control" id="creatureNotes">
-            </div>
-    
-            
-    
-            <button id="createObjBtn">Submit</button>
-          </form>
+        <div class="CreatingForm">
+            <form>
+                <div class="mb-3">
+                <label class="form-label">Name Of Creature</label>
+                <input type="text" id="creatureName">
+                </div>
+        
+                <div class="mb-3">
+                <label class="form-label">Health</label>
+                <input type="integer" id="creatureHealth">
+                </div>
+        
+                <div class="mb-3">
+                    <label class="form-label">Damage</label>
+                    <input type="integer" id="creatureDamage">
+                </div>
+        
+                <div class="mb-3">
+                    <label class="form-label">Speed</label>
+                    <input type="integer" id="creatureSpeed">
+                </div>
+                <div>
+                    <label class="form-label">ExtraNotes</label>
+                    <div>
+                        <textarea type="text" class="CEN" id="creatureNotes">
 
+                        </textarea>
+                    </div>
+                </div>
+                
+        
+                <button id="createObjBtn">Submit</button>
+            </form>
+        </div>
 
         <!-- every HTML page needs this to run smoothly -->
 
