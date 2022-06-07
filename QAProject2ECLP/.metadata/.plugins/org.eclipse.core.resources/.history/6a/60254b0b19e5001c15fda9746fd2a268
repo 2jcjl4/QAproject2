@@ -1,5 +1,0 @@
-
-
-spring.profiles.active=prod
-spring.jpa.properties.hibernate.globally_quoted_identifiers=true
-
