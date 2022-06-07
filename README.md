@@ -96,8 +96,7 @@ Don't forget to give the project a star! Thanks!
 <!-- CONTACT -->
 ## Contact
 
-James Long - 2jcjl4@gmail.com
-
+James Long - Notareal@email.com
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
