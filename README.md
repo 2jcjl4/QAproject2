@@ -31,35 +31,11 @@
 
 This project is about showing inderstry standards when developing front end and back end content.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
 Of course, this is my attempt and its a personal project thats being marked. It is a fully functioning website that connects to a local database but please use at your own disclosure.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-### Built With
-
-* Maven
-* gitbash
-* git
-* github
-* Eclipse
-* Visual Studio
-* Java
-* JavaScript
-* MYSQL
-* HTML
-* CSS
-* Jira
-* JUnit
-* Maven
-* Mockito
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -94,6 +70,27 @@ Don't forget to give the project a star! Thanks!
 4. Push to the Branch (`git push origin feature`)
 5. Open a Pull Request
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+* Maven
+* gitbash
+* git
+* github
+* Eclipse
+* Visual Studio
+* Java
+* JavaScript
+* MYSQL
+* HTML
+* CSS
+* Jira
+* JUnit
+* Maven
+* Mockito
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
