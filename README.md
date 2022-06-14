@@ -87,7 +87,7 @@ Don't forget to give the project a star! Thanks!
 * MYSQL
 * HTML
 * CSS
-* Jira
+* Jira -- <a href="https://2jcjl4.atlassian.net/jira/software/projects/QAP2/boards/2/roadmap?shared=&atlOrigin=eyJpIjoiMzEzNjlhNTY5Mjk4NDg0M2FlMzViOTM1YjYyNTJmMzMiLCJwIjoiaiJ9">Jira Link</a>
 * JUnit
 * Maven
 * Mockito
